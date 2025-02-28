@@ -1,7 +1,6 @@
-
 import { useState } from "react";
 import { motion } from "framer-motion";
-import Navbar from "../components/Navbar";
+import NavbarExtended from "../components/NavbarExtended";
 import InvestmentCard from "../components/InvestmentCard";
 import { 
   ArrowRight, 
@@ -114,7 +113,7 @@ export default function Advisor() {
       exit={{ opacity: 0 }}
       className="min-h-screen bg-background"
     >
-      <Navbar />
+      <NavbarExtended />
       
       <main className="pt-20 pb-28 page-container">
         <section className="mb-8">

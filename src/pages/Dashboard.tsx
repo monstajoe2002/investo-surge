@@ -1,6 +1,6 @@
 
 import { motion } from "framer-motion";
-import Navbar from "../components/Navbar";
+import NavbarExtended from "../components/NavbarExtended";
 import CardBalance from "../components/CardBalance";
 import TransactionItem from "../components/TransactionItem";
 import InvestmentCard from "../components/InvestmentCard";
@@ -89,7 +89,7 @@ export default function Dashboard() {
       exit={{ opacity: 0 }}
       className="min-h-screen bg-background"
     >
-      <Navbar />
+      <NavbarExtended />
       
       <main className="pt-20 pb-28 page-container">
         <section className="mb-8">

@@ -10,6 +10,8 @@ import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Advisor from "./pages/Advisor";
 import Profile from "./pages/Profile";
+import Loyalty from "./pages/Loyalty";
+import Deals from "./pages/Deals";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,6 +27,8 @@ const AnimatedRoutes = () => {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/advisor" element={<Advisor />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/loyalty" element={<Loyalty />} />
+        <Route path="/deals" element={<Deals />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </AnimatePresence>

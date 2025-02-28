@@ -10,7 +10,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { toast } from "@/hooks/use-toast";
 import { Separator } from "@/components/ui/separator";
 import { Bell, CreditCard, Download, HelpCircle, LogOut, User, Eye, EyeOff } from "lucide-react";
-import Navbar from "@/components/Navbar";
+import NavbarExtended from "@/components/NavbarExtended";
 import LogoSVG from "@/assets/logo.svg";
 
 export default function Profile() {
@@ -87,7 +87,7 @@ export default function Profile() {
   
   return (
     <>
-      <Navbar />
+      <NavbarExtended />
       <motion.div
         className="container max-w-5xl mx-auto pt-24 pb-16 px-4"
         initial="initial"
