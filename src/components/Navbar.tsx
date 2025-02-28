@@ -71,7 +71,7 @@ export default function Navbar() {
             transition={{ duration: 0.5 }}
             className="text-xl font-semibold text-primary font-display"
           >
-            InvestoSurge
+            LoyalPay
           </motion.div>
         </Link>
         
