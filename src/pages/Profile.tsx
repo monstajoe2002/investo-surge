@@ -11,7 +11,7 @@ import { toast } from "@/hooks/use-toast";
 import { Separator } from "@/components/ui/separator";
 import { Bell, CreditCard, Download, HelpCircle, LogOut, User, Eye, EyeOff } from "lucide-react";
 import Navbar from "@/components/Navbar";
-import { ReactComponent as LogoSVG } from "@/assets/logo.svg";
+import LogoSVG from "@/assets/logo.svg";
 
 export default function Profile() {
   const [passwordVisible, setPasswordVisible] = useState(false);
@@ -167,7 +167,7 @@ export default function Profile() {
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <div className="flex items-center justify-center mb-6">
-                      <LogoSVG width={80} height={80} />
+                      <img src={LogoSVG} alt="Logo" width={80} height={80} />
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div className="space-y-2">
